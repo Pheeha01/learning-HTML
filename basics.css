@@ -1,0 +1,40 @@
+img{
+        border-radius: 20px;
+        border: 4px solid black;
+        width: 100%;
+    }
+h1{
+    color: green;
+    font-size:80px;
+}
+.unorderedlists{
+    display: flex;
+}
+.orderedlists{
+    display: flex;
+}
+#Name{
+    display: block;
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#password{
+    margin-top: 8px;
+    /*display block will mean whatever element you have added will have all rights to the horizontal space of the page*/
+    display: block;
+    /*resizing elements*/
+    width: 400px;
+    height: 30px;
+    /*we are centering an element, by give auto values to the side margins, this will work if you have display block because the element will have the rights to the horizontal space*/
+    margin-left: auto;
+    margin-right: auto;
+    /*padding gives text/content within another element or tag space between the content and the border*/
+    padding: 0px;
+}
+#Done{
+    border-radius: 35px;
+    padding: 10px;
+    width: 180px;
+}
