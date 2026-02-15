@@ -6,9 +6,25 @@
     <title>My first touch to HTML</title>
     <link rel="stylesheet" href="basics.css">
 </head>
-<!--in-line styling by calling class name of a div-->
 <body>
-    <h1>Mabotja</h1>
-    <img src="picture.jpg" id="sky1" alt="just a picture">
+    <!--Dividing my work or codes using divs and your divs can have class names to distinguish them-->
+    <div class="headImage">
+        <h1>Mabotja</h1>
+        <img src="picture.jpg" id="sky1" alt="just a picture">
+    </div>
+    <!--divs can also be nested and we'll using display flex to have elements on the same horizontal section-->
+    <div class="displayflex">
+        <!--using interactive elements like buttons to my HTML-->
+        <div class="1stbutton">
+            <!--we might have multiple elements, so we distinguish these elements using IDs-->
+            <button id="likebutton">Like Image</button>
+        </div>
+        <!--using anchor tags to link one page to another or one section of the same page to the next-->
+        <div class="anchortogoogle">
+            <!--we use target blank so that the referenced link can open on a new tab-->
+            <p>click <a href="https://www.google.com/" target="_blank">here</a> to search</p> 
+        </div>
+    </div>
+    
 </body>
 </html>

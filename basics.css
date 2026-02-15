@@ -10,15 +10,15 @@ h1{
 .unorderedlists{
     display: flex;
 }
-.orderedlists{
+.displayflex{
     display: flex;
 }
-#Name{
-    display: block;
+.anchortogoogle{
     width: 400px;
-    height: 30px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 18px;
+    margin-top: 0px;
 }
 #password{
     margin-top: 8px;
@@ -33,8 +33,20 @@ h1{
     /*padding gives text/content within another element or tag space between the content and the border*/
     padding: 0px;
 }
-#Done{
+#likebutton{
     border-radius: 35px;
     padding: 10px;
     width: 180px;
+    margin-right: 20px;
+    background-color: turquoise;
+    color: #222222;
+    border-color: gold;
+    cursor: pointer;
+    font-weight: bold;
+}
+#likebutton:hover{
+    background-color: cyan;
+}
+#likebutton:active{
+    background-color: pink;
 }
