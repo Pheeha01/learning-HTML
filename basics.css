@@ -31,7 +31,7 @@ h1{
     margin-left: auto;
     margin-right: auto;
     /*padding gives text/content within another element or tag space between the content and the border*/
-    padding: 0px;
+    padding: 4px;
 }
 #likebutton{
     border-radius: 35px;
@@ -41,6 +41,7 @@ h1{
     background-color: turquoise;
     color: #222222;
     border-color: gold;
+    /*this helps in users finding links the cursor will change form*/
     cursor: pointer;
     font-weight: bold;
 }
@@ -49,4 +50,19 @@ h1{
 }
 #likebutton:active{
     background-color: pink;
+}
+.Shoplink{
+    text-decoration: none;
+
+}
+.Shoplink:hover
+{
+ text-decoration: underline;
+}
+.fashion{
+    color: red;
+}
+.passlabel{
+    display: block;
+    text-align: center;
 }
