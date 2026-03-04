@@ -49,10 +49,15 @@ body{
     background-color: rgb(225, 225, 225);
 }
 .weekNav a:focus{
-    border: grey solid 0.05px;
-    color: rgb(77, 77, 77);
-    border-bottom: none;
-    background-color: transparent;
+    background-color: rgb(200, 200, 200);
+    outline: 2px solid #D95900;
+    outline-offset: -2px;
+}
+.weekNav a:focus-visible{
+    border: black solid;
+    background-color: rgb(200, 200, 200);
+    outline: 2px solid #D95900;
+    outline-offset: -2px;
 }
 
 section {
@@ -84,5 +89,13 @@ td, th{
 }
 #present{
     background-color: aqua;
+    border: black solid 1px;
+}
+#present2{
+    background-color: rgb(255, 96, 255);
+    border: black solid 1px;
+}
+#present3{
+    background-color: lime;
     border: black solid 1px;
 }
