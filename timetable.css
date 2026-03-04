@@ -54,6 +54,15 @@ body{
     border-bottom: none;
     background-color: transparent;
 }
+
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
